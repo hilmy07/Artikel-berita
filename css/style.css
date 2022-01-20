@@ -1,0 +1,295 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+}
+
+h1 {
+  font-size: 40px;
+  font-weight: 700;
+}
+
+h3 {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+h5 {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+p {
+  font-size: 15px;
+}
+
+.footer-kelola {
+  background-color: #3c8aff;
+  color: white;
+  margin-top: 50px;
+  font-size: 12px;
+}
+/* --------------FILE TAMBAH ARTIKEL------------------------------------------------------------------ */
+.artikel-container textarea,
+.id-container input,
+.kategori-container select,
+.tanggal-container input,
+.judul-container input{
+  border: 2px solid #3c8aff;
+}
+
+/* --------------FILE LIST ARTIKEL------------------------------------------------------------------ */
+.navbar-list {
+  background-color: transparent;
+} 
+.navbar-list li {
+  font-weight: 500;
+  margin-right: 30px;
+  text-shadow: 0 0 30px rgba(0,0,0,0.5);
+}
+.navbar-list li:hover{
+
+}
+.navbar-list button:hover {
+  color: rgb(62, 184, 66);
+  border: 2px solid rgb(62, 184, 66);
+  border-radius: 10px;
+  background-color: transparent;
+}
+.navbar-list button {
+  background-color: rgb(17, 142, 21);
+  border: 2px solid rgb(17, 142, 21);
+  color: white;
+  border-radius: 10px;
+}
+#daftar-artikel {
+  background-color: #dbc2ad;
+}
+#header {
+  background-image: url(../img/header7.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 800px;
+  margin-bottom: 80px;
+  margin-top: -350px;
+}
+.judul-item {
+  margin-top: 380px;
+  color: white;
+}
+
+.kategori {
+  border: 2px solid #c4c4c4;
+  background-color: #c4c4c4;
+  width: 150px;
+  text-align: center;
+  border-radius: 35px;
+  font-weight: 500;
+  margin-right: 15px;
+}
+#search {
+  outline: none;
+  height: 10px;
+  width: 100%;
+  border: 0;
+  padding: 20px;
+  border-radius: 15px;
+}
+.card {
+  border-radius: 10px;
+}
+.card-kategori {
+  box-sizing: border-box;
+  transition: all 0.4s ease-in-out;
+}
+.card-anchor {
+  text-decoration: none;
+  color: black;
+}
+.card-anchor:hover {
+  text-decoration: none;
+  color: rgb(93, 93, 93);
+}
+.hide {
+  transform: scale(0);
+  width: 0;
+  padding: 0;
+  transition: all 0.4s ease-in-out;
+  position: absolute !important;
+}
+.empty-box {
+  height: 350px;
+  background-image: url(img/background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 80px;
+}
+.empty-box h1 {
+  color: white;
+  width: 450px;
+}
+.search-button-list {
+  margin-bottom: 80px;
+  margin-left: 0;
+}
+.category_container {
+  background-color: #707c4f;
+  border-radius: 15px;
+  color: white;
+}
+.category_container:hover {
+  background-color: #a4b07e;
+  color: white;
+}
+#buttonGroup_container {
+  width: 200px;
+  border: 2px #68796e;
+}
+.category_item {
+  width: 100%;
+}
+.category_item:hover {
+  background-color: #c0cfb2;
+  width: 100%;
+}
+
+.card-kategori .waktu_list {
+  text-align: left;
+  font-size: 15px;
+  color: #ababab;
+}
+
+.footer-list {
+  background-color: wheat;
+  color: #674006;
+}
+
+/* --------------FILE ARTIKEL KELOLA------------------------------------------------------------------ */
+.button-detail-artikel {
+  width: 100%;
+}
+.kelola-card{
+  border: 2px solid #3c8aff !important;
+}
+
+/*-----------------------FILE INDEX--------------------------------------------------------------------*/
+.btn-view{
+  background-color: #ff8f00 !important;
+}
+
+/* -------TABLET-------------------------------------------------------------------------------------- */
+@media screen and (max-width: 768px) {
+  h5 {
+    font-size: 12px;
+  }
+
+  #editDelete_container {
+    margin: 0 auto;
+  }
+
+  /* File tambah artikel */
+  .id-container-tambah {
+    margin-top: 30px;
+  }
+
+  /* File kelola artikel */
+  .PK-button {
+    width: 100%;
+  }
+  .PK-button button {
+    width: 49.5%;
+    margin-bottom: 10px;
+  }
+
+  .signOut-button {
+    margin-top: 20px;
+    width: 100%;
+  }
+
+  .signOut-button button {
+    width: 100%;
+  }
+
+  .judul-daftar {
+    margin-top: 40px;
+  }
+}
+
+/* ---------MOBILE------------------------------------------------------------------------------------ */
+@media screen and (max-width: 576px) {
+  h1 {
+    font-size: 30px;
+  }
+
+  h5 {
+    font-size: 12px;
+    font-weight: 500;
+  }
+
+  p {
+    font-size: 12px;
+  }
+
+  /* File index */
+  #nav-list{
+    color: white !important;
+  }
+  .judul-item {
+    padding: 30px;
+  }
+  .TK-btn {
+    width: 100;
+  }
+  .TK-btn button {
+    width: 45%;
+    font-size: 12px;
+  }
+  .search-container {
+    margin-bottom: 10px;
+  }
+  .search-button-list {
+    display: flex;
+    margin-right: 0;
+  }
+
+  .search-button-list .btn-group {
+    margin-top: 20px;
+  }
+
+  .category_container {
+    width: 95%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .judul-artikel{
+    font-size: 20px;
+  }
+
+  /* File tambah artikel */
+  .id-container-tambah {
+    margin-top: 30px;
+  }
+  .tanggal-container{
+   margin-bottom: 30px !important;
+  }
+
+  /* File kelola artikel */
+  #editDelete_container {
+    margin: 0 auto;
+  }
+
+  .judul-container {
+    margin-top: 80px;
+    margin-left: 0;
+  }
+  .kelola-card{
+    border: 2px solid #3c8aff;
+  }
+
+  /*file edit artikel*/
+  .kategori-edit{
+    margin-bottom: 30px;
+  }
+
+}

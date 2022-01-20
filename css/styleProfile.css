@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap");
+
+.profile-area{
+    /*padding: 100px 0;*/
+    /*padding-top: 100px;*/
+    padding-top: 100px !important;
+    background-color: white;
+    margin-top: 150px !important; 
+}
+
+#profile{
+    box-shadow: 0 0 30px rgba(0,0,0,0.5);
+}
+
+.card{
+    overflow: hidden;
+    border-radius: 15px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+}
+
+.img1 img{
+    height: 150px;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    width: 100%;
+}
+
+.img2 img{
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 1;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border:7px solid #fff;
+    margin-top: -50px;
+}
+
+.card:hover .img2 img{
+    /*border-color: #e0ac1c !important;*/
+    transition: all 0.5s;
+    border-color: #e0ac1c;
+}
+
+.main-text{
+    padding: 20px 0;
+    text-align: center;
+}
+
+.main-text h2{
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+
+.main-text p{
+    font-size: 16px;
+    padding: 0 20px;
+}
+
+.socials{
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.socials i{
+    font-size: 20px;
+    color: #e0ac1c !important;
+    padding: 0 10px;
+}
